@@ -13,8 +13,8 @@ const ContactLeft = () => {
         <h3 className="text-3xl font-bold text-white">Ahmad Abdullah</h3>
         <p className="text-lg font-normal text-gray-400">Software Engineer</p>
         <p className="text-base text-gray-400 tracking-wide">
-          "I offer top-notch software solutions to elevate your business and
-          meet your needs effectively."
+          I offer top-notch software solutions to elevate your business and
+          meet your needs effectively.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+923244568483</span>

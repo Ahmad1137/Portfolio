@@ -41,10 +41,17 @@ const Contact = () => {
       .catch((error) => {
         console.log("Error sending email:", error);
       });
-       
-      setSuccessMsg(
-        `Thank you dear ${username}, Your Messages has been sent Successfully!`
-      );
+    const SuccessMsg = () => {
+  setSuccessMsg(`Thank you dear ${username}, Your Message has been sent Successfully!`);
+  
+  setTimeout(() => {
+    setSuccessMsg('');
+  }, 3000);
+}
+
+// Call SuccessMsg initially
+SuccessMsg();
+      
        setErrMsg("");
       setUsername("");
       setPhoneNumber("");
@@ -70,7 +77,7 @@ const Contact = () => {
      
   };
 
-  // ========== Email Validation end here ================
+  
 
   return (
     <section
