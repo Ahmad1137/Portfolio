@@ -32,21 +32,28 @@ const Contact = () => {
       to_name: "Ahmad",
       message: message,
     };
+    if(username!=="" && phoneNumber!=="" && email!=="" && subject!=="" && message!==""){
     emailjs
       .send(serviceId, templateId, templatPrams, publickKey)
       .then((response) => {
         console.log("Email sent Successfully", response);
-        setUsername("");
-        setPhoneNumber("");
-        setEmail("");
-        setSubject("");
-        setMessage("");
       })
       .catch((error) => {
         console.log("Error sending email:", error);
       });
+       
+      setSuccessMsg(
+        `Thank you dear ${username}, Your Messages has been sent Successfully!`
+      );
+       setErrMsg("");
+      setUsername("");
+      setPhoneNumber("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
+    }
 
-    if (username === "") {
+   else if (username === "") {
       setErrMsg("Username is required!");
     } else if (phoneNumber === "") {
       setErrMsg("Phone number is required!");
@@ -58,17 +65,9 @@ const Contact = () => {
       setErrMsg("Plese give your Subject!");
     } else if (message === "") {
       setErrMsg("Message is required!");
-    } else {
-      setSuccessMsg(
-        `Thank you dear ${username}, Your Messages has been sent Successfully!`
-      );
-      setErrMsg("");
-      setUsername("");
-      setPhoneNumber("");
-      setEmail("");
-      setSubject("");
-      setMessage("");
     }
+   
+     
   };
 
   // ========== Email Validation end here ================
