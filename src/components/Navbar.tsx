@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
 import { logo } from "../assets";
 import { navLinksdata } from "../constants";
 
@@ -45,9 +46,8 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  I offer top-notch software solutions to elevate your business
+                  and meet your needs effectively.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -75,11 +75,6 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-                    <span className="bannerIcon">
-                      <FaYoutube />
-                    </span>
-                  </a>
                   <a
                     href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
                     target="_blank"
@@ -88,12 +83,9 @@ const Navbar = () => {
                       <FaLinkedinIn />
                     </span>
                   </a>
-                  <a
-                    href="https://www.facebook.com/Noorlalu143/"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/Ahmad1137" target="_blank">
                     <span className="bannerIcon">
-                      <FaFacebookF />
+                      <BsGithub />
                     </span>
                   </a>
                 </div>
