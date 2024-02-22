@@ -2,7 +2,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaGithub, FaLinkedinIn, FaReact, FaJsSquare } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FadeIn } from "./FadeIn";
-
+import Ahmadresume  from "../assets/images/Ahmadresume.pdf"
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: ["Professional Coder.", "Software Engineer.", "ReactJS Developer."],
@@ -23,7 +23,7 @@ const LeftBanner = () => {
           a <span>{text}</span>
           <Cursor
             cursorStyle="|"
-            cursorColor="#0008B
+            cursorColor="#00008B
 "
           />
         </h2>
@@ -59,6 +59,10 @@ const LeftBanner = () => {
               </span>
             </a>
           </div>
+        </div>
+        <div className="bannerIcon  w-auto-lg w-52 mt-5  animate-bounce">
+      
+          <a type="button" href={Ahmadresume} className="px-6" >Download Cv</a>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
