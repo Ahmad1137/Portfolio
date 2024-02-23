@@ -5,7 +5,7 @@ const RightBanner = () => {
   return (
     <FadeIn className="w-full lgl:w-1/2 flex justify-center items-center relative">
       <img
-        className="w-[400px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
+        className="w-[400px] h-[400px] lgl:w-[500px] lgl:h-[580px]  z-10"
         src={profile_pic}
         alt="bannerImg"
       />
