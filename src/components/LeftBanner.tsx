@@ -62,7 +62,7 @@ const LeftBanner = () => {
         </div>
         <div className="bannerIcon  w-auto-lg w-52 mt-5  animate-bounce">
       
-          <a type="button" href={Ahmadresume} className="px-6" >Download Cv</a>
+          <a type="button" href={Ahmadresume} className="px-6" download="Ahmad Resume" >Download Cv</a>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
