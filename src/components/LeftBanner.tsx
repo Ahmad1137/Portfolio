@@ -2,7 +2,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaGithub, FaLinkedinIn, FaReact, FaJsSquare } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FadeIn } from "./FadeIn";
-import Ahmadresume from "../assets/images/Ahmad's Resume.pdf";
+import Ahmadresume from "../assets/images/Ahmad resume.pdf";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: ["Professional Coder.", "Software Engineer.", "ReactJS Developer."],
