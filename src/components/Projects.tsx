@@ -1,5 +1,7 @@
 import Title from "./Title";
-import ProjectsCard from "./ProjectsCard";
+import ProjectsCard, { Liveproject } from "./ProjectsCard";
+import Live1 from "../assets/images/projects/live1.png";
+import live2 from "../assets/images/projects/live2.jpg";
 import {
   projectOne,
   projectThree,
@@ -24,6 +26,18 @@ const Projects = () => {
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+          <Liveproject
+            Title="Contact Lensses"
+            Desc="This is an e-commerce site with an intuitive and user-friendly interface. Users can effortlessly browse through a wide selection of glasses, add items to their cart, and securely log in to complete their purchases."
+            Src={Live1}
+            Link="https://contactlenses.szemuvegek.hu/"
+          />
+          <Liveproject
+            Title="Consentio"
+            Desc="This is about Cayber Security if company allow then user can login its all about security in this check human or boat."
+            Src={live2}
+            Link="https://dev.consentio.cloud/login"
+          />
           <ProjectsCard
             title="Color Palette"
             des="This pure JavaScript project features a versatile palette inspired by nature's vibrant and calming hues, perfect for any creative endeavor, from warm sunset tones to cool forest shades"
@@ -36,7 +50,7 @@ const Projects = () => {
           />
           <ProjectsCard
             title="Todo App"
-            des="Todo App complete yu can edit update delete and completion of employee task"
+            des="Todo App Completed in pure JS you can edit update delete and completion of employee task store data at local data base"
             src={projectThree}
           />
           <ProjectsCard
