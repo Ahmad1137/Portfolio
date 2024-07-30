@@ -36,8 +36,7 @@ const Projects = () => {
           />
           <ProjectsCard
             title="Todo App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            des="Todo App complete yu can edit update delete and completion of employee task"
             src={projectThree}
           />
           <ProjectsCard
