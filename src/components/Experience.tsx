@@ -16,21 +16,31 @@ const Experience = () => {
         </div>
         <div className="mt-6 lgl:mt-4 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+            title="ReactJS Developer"
+            subTitle="Stepinnsolution - (2024)"
+            result="Lahore"
+            des=" Based in Lahore, My role involved working with HTML, CSS, Bootstrap, JavaScript adn React JS to build interactive user interfaces and responsive design websites. Feel free to explore my GitHub repositories. I focus on responsive design and creating good animations to improve user interaction.
+
+."
+          />
+
+          <ResumeCard
             title="Front End Developer"
-            subTitle="Progists -(01/09/2023 - 30/11/2023)"
+            subTitle="Progists - (2023)"
             result="Lahore"
             des="I developed and maintained responsive web applications using
 HTML, CSS, Bootstrap and JavaScript to ensure a seamless user experience across various devices. Utilized JavaScript to enhance user interactivity and d improve overall site functionality."
           />
+
           <ResumeCard
-            title="ReactJS Developer"
-            subTitle="Stepinnsolution - (01/12/2023 - Present)"
+            title="Frontnd Developer"
+            subTitle="Mobitech - (2022)"
             result="Lahore"
-            des=" Based in Lahore, my role involves leveraging ReactJS to build interactive user interfaces and enhance overall user experience. For a glimpse of my expertise, feel free to explore my GitHub repositories."
+            des=" Based in Lahore, My role involved working with HTML, CSS, Bootstrap, and JavaScript to build good user interfaces and responsive designs."
           />
           <ResumeCard
             title="Personal Experience"
-            subTitle="Learning - (2020 - 2024)"
+            subTitle="Learning - (2022)"
             result="Lahore"
             des="I've developed a project equivalent to the MERN stack that specifically includes a recipe hub for culinary inspiration and sharing. Also, I've built a PHP-based plant store using Stripe integration for ease of use and security. Discover an environment of tastes and colors by visiting these applications. You can find more details on my repositories at GitHub.
 "
